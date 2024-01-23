@@ -20,11 +20,6 @@
       font-family: 'Comic Sans MS', cursive; /* Set the font for the top banner */
       position: relative;
     }
-    
-    <header>
-    <img id="logo" src="images/Avalanche Alien.png" alt="Logo">
-    <h1>Brother Pete's Dojo</h1>
-  </header>
 
     #logo {
       position: absolute;
@@ -33,11 +28,6 @@
       width: 50px; /* Set the width of your logo */
       height: auto; /* Maintain aspect ratio */
     }
-
-    <div id="center-image">
-    <!-- Add your image source here -->
-    <img src="your-center-image.jpg" alt="Center Image">
-  </div>
 
     #center-image {
       display: flex;
@@ -51,6 +41,44 @@
       height: auto; /* Maintain aspect ratio */
     }
 
+    #social-buttons {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .social-button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #007bff; /* Adjust the color as needed */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #telegram-button {
+      background-color: #0088cc; /* Adjust the color as needed */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img id="logo" src="images/Avalanche Alien.png" alt="Logo">
+    <h1>Brother Pete's Dojo</h1>
+  </header>
+
+  <div id="center-image">
+    <!-- Add your image source here -->
+    <img src="your-center-image.jpg" alt="Center Image">
+  </div>
+
+  <div id="social-buttons">
+    <a href="your-social-x-url" class="social-button" target="_blank">Social X</a>
+    <a href="your-telegram-url" class="social-button" id="telegram-button" target="_blank">Telegram</a>
+  </div>
+
 </body>
 </html>
-
